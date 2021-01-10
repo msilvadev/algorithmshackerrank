@@ -30,7 +30,7 @@ import java.util.Scanner;
  * If a string is balanced, return YES. Otherwise, return NO.
  *
  */
-public class BalancedBrackets {
+public class BalancedBracketsUsingDeque {
 
     static String isBalanced(String s) {
         if (s == null || ((s.length() % 2) != 0)) {
